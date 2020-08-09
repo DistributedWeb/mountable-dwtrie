@@ -1,6 +1,6 @@
 {
-  "name": "mountable-hypertrie",
-  "version": "2.6.0",
+  "name": "mountable-dwtrie",
+  "version": "1.0.0",
   "description": "A Hypertrie wrapper that supports mounting of other Hypertries",
   "main": "index.js",
   "scripts": {
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewosh/mountable-hypertrie.git"
+    "url": "git+https://github.com/andrewosh/mountable-dwtrie.git"
   },
   "keywords": [
     "mount",
     "mountable",
-    "hypertrie"
+    "dwtrie"
   ],
   "author": "Andrew Osheroff <andrewosh@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewosh/mountable-hypertrie/issues"
+    "url": "https://github.com/andrewosh/mountable-dwtrie/issues"
   },
-  "homepage": "https://github.com/andrewosh/mountable-hypertrie#readme",
+  "homepage": "https://github.com/andrewosh/mountable-dwtrie#readme",
   "devDependencies": {
-    "corestore": "^5.0.0",
+    "dwebx": "git://github.com/DistributedWeb/dwebx.git#2009bb01b0919b5d8b1f8ca4ede38aa5e8078123",
     "raf": "^3.4.1",
     "random-access-memory": "^3.1.1",
     "rimraf": "^2.6.3",
@@ -32,9 +32,9 @@
     "tmp": "^0.1.0"
   },
   "dependencies": {
-    "hypercore-crypto": "^2.0.1",
-    "hypercore-protocol": "^8.0.0",
-    "hypertrie": "^5.0.0",
+    "ddatabase-crypto": "git://github.com/DistributedWeb/ddatabase-crypto.git#dc1ebdbd7b7973b42d6acd88c79c8868ba5778f3",
+    "ddatabase-protocol": "git://github.com/DistributedWeb/ddatabase-protocol.git#bf7d74a532d86b138112b90b3e71f3f645cd0fdb",
+    "dwtrie": "git://github.com/DistributedWeb/dwtrie.git#0f9e0d8f944b88a946946f05a215c1cc3347cc56",
     "is-options": "^1.0.1",
     "nanoiterator": "^1.2.0",
     "nanoresource": "^1.3.0",
